@@ -124,29 +124,17 @@ elif var2==var6:
     print("Both", team2, "and", team6, "tied")
 
 
-if var3==var1:
-    print("Both", team3, "and", team1, "tied")
-elif var3==var2:
+if var3==var2:
     print("Both", team3, "and", team2, "tied")
-elif var3==var5:
-    print("Both", team3, "and", team5, "tied")
 elif var3==var6:
     print("Both", team3, "and", team6, "tied")
 
 
-if var4==var1:
-    print("Both", team4, "and", team1, "tied")
-elif var4==var2:
-    print("Both", team4, "and", team2, "tied")
-elif var4==var3:
+if var4==var3:
     print("Both", team4, "and", team3, "tied")
-elif var4==var6:
-    print("Both", team4, "and", team6, "tied")
 
 
-if var5==var1:
-    print("Both" , team5 , "and" , team1 , "tied")
-elif var5==var2:
+if var5==var2:
     print("Both" , team5 , "and" , team2 , "tied")
 elif var5==var3:
     print("Both" , team5 , "and" , team3 , "tied")
@@ -154,13 +142,7 @@ elif var5==var4:
     print("Both" , team5 , "and" , team4 , "tied")
 
 
-if var6==var1:
-    print("Both" , team6 , "and" , team1 , "tied")
-elif var6==var2:
-    print("Both" , team6 , "and" , team2 , "tied")
-elif var6==var3:
-    print("Both" , team6 , "and" , team3 , "tied")
-elif var6==var4:
+if var6==var4:
     print("Both" , team6 , "and" , team4 , "tied")
 elif var6==var5:
     print("Both" , team6 , "and" , team5 , "tied")
