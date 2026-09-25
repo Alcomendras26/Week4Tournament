@@ -79,7 +79,6 @@ var6=wins6 * 2 + ties6
 print(f"The total is {var6}")
 
 
-
 if var1>var2 and var1>var3 and var1>var4 and var1>var5 and var1>var6:
     print(team1 , "was first place with" , var1 , "points")
 
@@ -106,72 +105,65 @@ if var6>var1 and var6>var2 and var6>var3 and var6>var4 and var6>var5:
 print("also")
 
 if var1==var2:
-    print("Both" , team1 , "and" , team2 , "the same")
-if var1==var3:
-    print("Both" , team1 , "and" , team3 , "the same")
-if var1==var4:
-    print("Both" , team1 , "and" , team4 , "the same")
-if var1==var5:
-    print("Both" , team1 , "and" , team5 , "the same")
-if var1==var6:
-    print("Both" , team1 , "and" , team6 , "the same")
+    print("Both", team1, "and", team2, "tied")
+elif var1==var3:
+    print("Both", team1, "and", team3, "tied")
+elif var1==var4:
+    print("Both", team1, "and", team4, "tied")
+elif var1==var5:
+    print("Both", team1, "and", team5, "tied")
+elif var1==var6:
+    print("Both", team1, "and", team6, "tied")
 
-if var2==var1:
-    print("Both" , team2 , "and" , team1 , "the same")
-if var2==var3:
-    print("Both" , team2 , "and" , team3 , "the same")
+
 if var2==var4:
-    print("Both" , team2 , "and" , team4 , "the same")
-if var2==var5:
-    print("Both" , team2 , "and" , team5 , "the same")
-if var2==var6:
-    print("Both" , team2 , "and" , team6 , "the same")
+    print("Both", team2, "and", team4, "tied")
+elif var2==var5:
+    print("Both", team2, "and", team5, "tied")
+elif var2==var6:
+    print("Both", team2, "and", team6, "tied")
+
 
 if var3==var1:
-    print("Both" , team3 , "and" , team1 , "the same")
-if var3==var2:
-    print("Both" , team3 , "and" , team2 , "the same")
-if var3==var4:
-    print("Both" , team3 , "and" , team4 , "the same")
-if var3==var5:
-    print("Both" , team3 , "and" , team5 , "the same")
-if var3==var6:
-    print("Both" , team3 , "and" , team6 , "the same")
+    print("Both", team3, "and", team1, "tied")
+elif var3==var2:
+    print("Both", team3, "and", team2, "tied")
+elif var3==var5:
+    print("Both", team3, "and", team5, "tied")
+elif var3==var6:
+    print("Both", team3, "and", team6, "tied")
+
 
 if var4==var1:
-    print("Both", team4, "and", team1, "the same")
+    print("Both", team4, "and", team1, "tied")
 elif var4==var2:
-    print("Both", team4, "and", team2, "the same")
+    print("Both", team4, "and", team2, "tied")
 elif var4==var3:
-    print("Both", team4, "and", team3, "the same")
-elif var4==var5:
-    print("Both", team4, "and", team4, "the same")
+    print("Both", team4, "and", team3, "tied")
 elif var4==var6:
-    print("Both", team4, "and", team6, "the same")
+    print("Both", team4, "and", team6, "tied")
 
 
 if var5==var1:
-    print("Both" , team5 , "and" , team1 , "the same")
+    print("Both" , team5 , "and" , team1 , "tied")
 elif var5==var2:
-    print("Both" , team5 , "and" , team2 , "the same")
+    print("Both" , team5 , "and" , team2 , "tied")
 elif var5==var3:
-    print("Both" , team5 , "and" , team3 , "the same")
+    print("Both" , team5 , "and" , team3 , "tied")
 elif var5==var4:
-    print("Both" , team5 , "and" , team4 , "the same")
-elif var5==var6:
-    print("Both" , team5 , "and" , team6 , "the same")
+    print("Both" , team5 , "and" , team4 , "tied")
 
 
 if var6==var1:
-    print("Both" , team6 , "and" , team1 , "the same")
+    print("Both" , team6 , "and" , team1 , "tied")
 elif var6==var2:
-    print("Both" , team6 , "and" , team2 , "the same")
+    print("Both" , team6 , "and" , team2 , "tied")
 elif var6==var3:
-    print("Both" , team6 , "and" , team3 , "the same")
+    print("Both" , team6 , "and" , team3 , "tied")
 elif var6==var4:
-    print("Both" , team6 , "and" , team4 , "the same")
+    print("Both" , team6 , "and" , team4 , "tied")
 elif var6==var5:
-    print("Both" , team6 , "and" , team5 , "the same")
+    print("Both" , team6 , "and" , team5 , "tied")
 
 
 
